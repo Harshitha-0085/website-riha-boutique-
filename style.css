@@ -1,0 +1,1476 @@
+/* =========================================
+   GOOGLE FONTS
+========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap');
+
+/* =========================================
+   RESET
+========================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* =========================================
+   ROOT COLORS
+========================================= */
+
+:root{
+
+    --primary:#8B3A55;
+    --secondary:#B76E79;
+    --accent:#F8E9EC;
+
+    --white:#ffffff;
+    --black:#222;
+    --gray:#666;
+
+    --shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+/* =========================================
+   BODY
+========================================= */
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#fffaf8;
+
+    color:var(--black);
+
+    overflow-x:hidden;
+
+}
+
+/* =========================================
+   COMMON ELEMENTS
+========================================= */
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+button{
+
+    font-family:'Poppins',sans-serif;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+section{
+
+    padding:90px 8%;
+
+}
+
+h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:52px;
+
+    text-align:center;
+
+    color:var(--primary);
+
+    margin-bottom:50px;
+
+}
+
+p{
+
+    line-height:1.8;
+
+}
+
+/* =========================================
+   NAVIGATION BAR
+========================================= */
+
+nav{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 8%;
+
+    background:rgba(255,250,248,.95);
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 3px 15px rgba(0,0,0,.08);
+
+    z-index:1000;
+
+}
+
+.logo{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+}
+
+.logo h1{
+
+    font-family:'Great Vibes',cursive;
+
+    font-size:48px;
+
+    color:var(--primary);
+
+    line-height:1;
+
+}
+
+.logo p{
+
+    font-size:12px;
+
+    letter-spacing:4px;
+
+    color:var(--gray);
+
+    margin-top:5px;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:35px;
+
+}
+
+nav ul li{
+
+    list-style:none;
+
+}
+
+nav ul li a{
+
+    color:var(--black);
+
+    font-weight:500;
+
+    font-size:16px;
+
+    position:relative;
+
+    padding-bottom:6px;
+
+}
+
+nav ul li a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:0;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--primary);
+
+    transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+    color:var(--primary);
+
+}
+
+nav ul li a:hover::after{
+
+    width:100%;
+
+}
+
+/* =========================================
+   HERO SECTION
+========================================= */
+
+.hero{
+
+    height:100vh;
+
+    background:
+        linear-gradient(rgba(0,0,0,.45),
+        rgba(0,0,0,.45)),
+        url("../images/hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+    padding:120px 8%;
+
+    color:var(--white);
+
+}
+
+/* Hero Heading */
+
+.hero h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:72px;
+
+    line-height:1.1;
+
+    max-width:750px;
+
+    color:white;
+
+    text-align:left;
+
+    margin-bottom:25px;
+
+    text-shadow:0 5px 20px rgba(0,0,0,.75);
+
+}
+
+/* Hero Paragraph */
+
+.hero p{
+
+    max-width:650px;
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    margin-bottom:40px;
+
+    color:#f5f5f5;
+
+    text-shadow:0 3px 12px rgba(0,0,0,.75);
+
+}
+
+/* Hero Button */
+
+.hero button{
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    padding:16px 38px;
+
+    border-radius:40px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    box-shadow:0 10px 25px rgba(139,58,85,.35);
+
+}
+
+.hero button:hover{
+
+    background:var(--secondary);
+
+    transform:translateY(-4px);
+
+    box-shadow:0 15px 35px rgba(139,58,85,.45);
+
+}
+
+/* =========================================
+   COLLECTIONS
+========================================= */
+
+.collections{
+
+    background:#fff;
+
+    text-align:center;
+
+}
+
+.collection-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:35px;
+
+    margin-top:50px;
+
+}
+
+/* =========================================
+   COLLECTION CARD
+========================================= */
+
+.card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:all .35s ease;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.15);
+
+}
+
+/* =========================================
+   CARD IMAGE
+========================================= */
+
+.card img{
+
+    width:100%;
+
+    height:420px;
+
+    object-fit:cover;
+
+    transition:.4s;
+
+}
+
+.card:hover img{
+
+    transform:scale(1.05);
+
+}
+
+/* =========================================
+   CARD CONTENT
+========================================= */
+
+.card h3{
+
+    margin-top:25px;
+
+    color:var(--primary);
+
+    font-size:26px;
+
+    font-family:'Cormorant Garamond',serif;
+
+}
+
+.card p{
+
+    color:var(--gray);
+
+    font-size:16px;
+
+    padding:15px 25px;
+
+    flex:1;
+
+}
+
+/* =========================================
+   VIEW BUTTON
+========================================= */
+
+.view-btn{
+
+    display:inline-block;
+
+    margin:20px auto 30px;
+
+    padding:13px 30px;
+
+    background:var(--primary);
+
+    color:white;
+
+    border-radius:35px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    box-shadow:0 8px 20px rgba(139,58,85,.30);
+
+}
+
+.view-btn:hover{
+
+    background:var(--secondary);
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(139,58,85,.40);
+
+}
+
+/* =========================================
+   ABOUT SECTION
+========================================= */
+
+.about{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+
+    background:#fffaf8;
+
+}
+
+.about-image img{
+
+    width:100%;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+    transition:.4s;
+
+}
+
+.about-image img:hover{
+
+    transform:scale(1.03);
+
+}
+
+.about-text h2{
+
+    text-align:left;
+
+    margin-bottom:25px;
+
+}
+
+.about-text p{
+
+    font-size:17px;
+
+    color:var(--gray);
+
+    margin-bottom:20px;
+
+    text-align:justify;
+
+}
+
+/* =========================================
+   WHY CHOOSE US
+========================================= */
+
+.why{
+
+    background:#fff;
+
+    text-align:center;
+
+}
+
+.why-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+    gap:30px;
+
+    margin-top:50px;
+
+}
+
+.why-card{
+
+    background:#fff;
+
+    padding:35px 25px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+
+.why-card h3{
+
+    color:var(--primary);
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+    font-family:'Cormorant Garamond',serif;
+
+}
+
+.why-card p{
+
+    color:var(--gray);
+
+    font-size:16px;
+
+    line-height:1.8;
+
+}
+
+/* =========================================
+   GALLERY
+========================================= */
+
+.gallery{
+
+    background:#fffaf8;
+
+    text-align:center;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+
+    margin-top:50px;
+
+}
+
+.gallery-grid img{
+
+    width:100%;
+
+    height:360px;
+
+    object-fit:cover;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    transition:all .4s ease;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.gallery-grid img:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+
+}
+
+
+/* =========================================
+   CUSTOMER REVIEWS
+========================================= */
+
+.reviews{
+
+    background:white;
+
+    text-align:center;
+
+}
+
+.review-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+    margin-top:50px;
+
+}
+
+.review{
+
+    background:#fffaf8;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.review:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+
+.review p{
+
+    margin:20px 0;
+
+    color:var(--gray);
+
+    font-size:16px;
+
+    line-height:1.8;
+
+}
+
+.review h4{
+
+    color:var(--primary);
+
+    font-size:20px;
+
+    font-family:'Cormorant Garamond',serif;
+
+}
+
+/* =========================================
+   CONTACT SECTION
+========================================= */
+
+.contact{
+
+    background:#fffaf8;
+
+}
+
+.contact-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+
+    margin-top:50px;
+
+}
+
+/* =========================================
+   CONTACT INFO
+========================================= */
+
+.contact-info{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.contact-info h3{
+
+    color:var(--primary);
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:34px;
+
+    margin-bottom:25px;
+
+}
+
+.contact-info p{
+
+    margin:18px 0;
+
+    color:var(--gray);
+
+    font-size:17px;
+
+}
+
+/* =========================================
+   CONTACT FORM
+========================================= */
+
+.contact form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.contact input,
+
+.contact textarea{
+
+    width:100%;
+
+    padding:16px 18px;
+
+    border:1px solid #ddd;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    font-family:'Poppins',sans-serif;
+
+    outline:none;
+
+    transition:.3s;
+
+    background:white;
+
+}
+
+.contact textarea{
+
+    height:170px;
+
+    resize:none;
+
+}
+
+.contact input:focus,
+
+.contact textarea:focus{
+
+    border-color:var(--secondary);
+
+    box-shadow:0 0 8px rgba(183,110,121,.3);
+
+}
+
+/* =========================================
+   CONTACT BUTTON
+========================================= */
+
+.contact button{
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    padding:16px;
+
+    border-radius:35px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    box-shadow:0 10px 20px rgba(139,58,85,.25);
+
+}
+
+.contact button:hover{
+
+    background:var(--secondary);
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 30px rgba(139,58,85,.35);
+
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:70px 8% 30px;
+
+}
+
+.footer-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:50px;
+
+    margin-bottom:40px;
+
+}
+
+.footer-container h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:34px;
+
+    margin-bottom:18px;
+
+}
+
+.footer-container h4{
+
+    font-size:20px;
+
+    margin-bottom:20px;
+
+    color:#ffe6ec;
+
+}
+
+.footer-container p{
+
+    margin:12px 0;
+
+    color:#f4f4f4;
+
+    font-size:15px;
+
+    line-height:1.8;
+
+}
+
+.footer-container a{
+
+    color:#f4f4f4;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-container a:hover{
+
+    color:#ffe6ec;
+
+    padding-left:6px;
+
+}
+
+footer hr{
+
+    border:none;
+
+    height:1px;
+
+    background:rgba(255,255,255,.25);
+
+    margin:35px 0 25px;
+
+}
+
+.copyright{
+
+    text-align:center;
+
+    color:#f7f7f7;
+
+    font-size:14px;
+
+    letter-spacing:1px;
+
+}
+
+/* =========================================
+   FLOATING BUTTONS
+========================================= */
+
+/* WhatsApp */
+
+.whatsapp{
+
+    position:fixed;
+
+    bottom:25px;
+
+    right:25px;
+
+    width:60px;
+
+    height:60px;
+
+    background:#25D366;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:30px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+    z-index:999;
+
+    transition:.3s;
+
+}
+
+.whatsapp:hover{
+
+    transform:scale(1.1);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.35);
+
+}
+
+
+/* Back To Top */
+
+.top-btn{
+
+    position:fixed;
+
+    bottom:100px;
+
+    right:25px;
+
+    width:50px;
+
+    height:50px;
+
+    background:var(--primary);
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+    text-decoration:none;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+
+    transition:.3s;
+
+}
+
+.top-btn:hover{
+
+    background:var(--secondary);
+
+    transform:translateY(-5px);
+
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media(max-width:992px){
+
+    nav{
+
+        padding:18px 5%;
+
+    }
+
+    nav ul{
+
+        gap:20px;
+
+    }
+
+    .hero h2{
+
+        font-size:58px;
+
+        max-width:600px;
+
+    }
+
+    .hero p{
+
+        max-width:550px;
+
+        font-size:18px;
+
+    }
+
+    .about{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .contact-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    nav{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    nav ul{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:15px;
+
+    }
+
+    .hero{
+
+        text-align:center;
+
+        align-items:center;
+
+    }
+
+    .hero h2{
+
+        font-size:48px;
+
+        text-align:center;
+
+    }
+
+    .hero p{
+
+        text-align:center;
+
+    }
+
+    .about-text h2{
+
+        text-align:center;
+
+    }
+
+    .about-text p{
+
+        text-align:left;
+
+    }
+
+}
+
+
+@media(max-width:576px){
+
+    section{
+
+        padding:70px 5%;
+
+    }
+
+    h2{
+
+        font-size:38px;
+
+    }
+
+    .hero h2{
+
+        font-size:38px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+    .gallery-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .collection-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .review-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .footer-container{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .contact-info{
+
+        text-align:center;
+
+    }
+
+}
+
+/* =========================================
+   PRODUCTS PAGE
+========================================= */
+
+.products-page{
+
+    padding:140px 8% 80px;
+
+    background:#fffaf8;
+
+    min-height:100vh;
+
+}
+
+/* =========================================
+   CATEGORY BUTTONS
+========================================= */
+
+.category-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+
+    margin:40px 0 60px;
+
+}
+
+.category-buttons button{
+
+    background:white;
+
+    color:var(--primary);
+
+    border:2px solid var(--primary);
+
+    padding:12px 28px;
+
+    border-radius:30px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.category-buttons button:hover{
+
+    background:var(--primary);
+
+    color:white;
+
+    transform:translateY(-3px);
+
+}
+
+/* =========================================
+   PRODUCT GRID
+========================================= */
+
+.product-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:35px;
+
+}
+
+/* =========================================
+   PRODUCT CARD
+========================================= */
+
+.product-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.15);
+
+}
+
+/* =========================================
+   PRODUCT IMAGE
+========================================= */
+
+.product-card img{
+
+    width:100%;
+
+    height:420px;
+
+    object-fit:cover;
+
+    transition:.4s;
+
+}
+
+.product-card:hover img{
+
+    transform:scale(1.05);
+
+}
+
+/* =========================================
+   PRODUCT INFO
+========================================= */
+
+.product-info{
+
+    padding:22px;
+
+    text-align:center;
+
+}
+
+.product-info h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:28px;
+
+    color:var(--primary);
+
+    margin-bottom:10px;
+
+}
+
+.product-id{
+
+    color:#999;
+
+    font-size:14px;
+
+    margin-bottom:12px;
+
+}
+
+.price{
+
+    font-size:20px;
+
+    font-weight:600;
+
+    color:#333;
+
+    margin-bottom:20px;
+
+}
+
+/* =========================================
+   BOOK BUTTON
+========================================= */
+
+.book-btn{
+
+    width:100%;
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    padding:14px;
+
+    border-radius:35px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.book-btn:hover{
+
+    background:var(--secondary);
+
+    transform:translateY(-3px);
+
+}
+
+/* =========================================
+   PRODUCTS RESPONSIVE
+========================================= */
+
+@media(max-width:768px){
+
+    .products-page{
+
+        padding:120px 5% 60px;
+
+    }
+
+    .category-buttons{
+
+        gap:12px;
+
+    }
+
+    .category-buttons button{
+
+        width:100%;
+
+    }
+
+    .product-card img{
+
+        height:350px;
+
+    }
+
+}
