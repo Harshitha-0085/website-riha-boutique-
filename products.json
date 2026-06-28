@@ -1,0 +1,594 @@
+[
+  {
+    "id": "BL001",
+    "name": "Blouse3",
+    "category": "blouses",
+    "price": "",
+    "image": "images/blouses/blouse3.jpg",
+    "description": ""
+  },
+  {
+    "id": "BL002",
+    "name": "Blouses1",
+    "category": "blouses",
+    "price": "",
+    "image": "images/blouses/blouses1.jpg",
+    "description": ""
+  },
+  {
+    "id": "BL003",
+    "name": "Blouses2",
+    "category": "blouses",
+    "price": "",
+    "image": "images/blouses/blouses2.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR001",
+    "name": "Anarkali1",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/anarkali1.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR002",
+    "name": "Anarkali2",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/anarkali2.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR003",
+    "name": "Anarkali3",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/anarkali3.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR004",
+    "name": "Anarkali4",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/anarkali4.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR005",
+    "name": "Anarkali5",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/anarkali5.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR006",
+    "name": "Anarkali6",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/anarkali6.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR007",
+    "name": "Ghagra1",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/ghagra1.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR008",
+    "name": "Ghagra2",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/ghagra2.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR009",
+    "name": "Ghagra3",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/ghagra3.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR010",
+    "name": "Ghagra4",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/ghagra4.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR011",
+    "name": "Long Frocks1",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks1.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR012",
+    "name": "Long Frocks10",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks10.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR013",
+    "name": "Long Frocks11",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks11.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR014",
+    "name": "Long Frocks12",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks12.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR015",
+    "name": "Long Frocks2",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks2.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR016",
+    "name": "Long Frocks3",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks3.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR017",
+    "name": "Long Frocks4",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks4.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR018",
+    "name": "Long Frocks5",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks5.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR019",
+    "name": "Long Frocks6",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks6.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR020",
+    "name": "Long Frocks7",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks7.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR021",
+    "name": "Long Frocks8",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks8.jpg",
+    "description": ""
+  },
+  {
+    "id": "DR022",
+    "name": "Long Frocks9",
+    "category": "dresses",
+    "price": "",
+    "image": "images/dresses/long-frocks9.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS001",
+    "name": "Langavoni1",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni1.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS002",
+    "name": "Langavoni10",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni10.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS003",
+    "name": "Langavoni11",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni11.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS004",
+    "name": "Langavoni12",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni12.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS005",
+    "name": "Langavoni2",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni2.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS006",
+    "name": "Langavoni3",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni3.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS007",
+    "name": "Langavoni4",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni4.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS008",
+    "name": "Langavoni5",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni5.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS009",
+    "name": "Langavoni6",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni6.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS010",
+    "name": "Langavoni7",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni7.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS011",
+    "name": "Langavoni8",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni8.jpg",
+    "description": ""
+  },
+  {
+    "id": "HS012",
+    "name": "Langavoni9",
+    "category": "half-saree",
+    "price": "",
+    "image": "images/half-saree/langavoni9.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU001",
+    "name": "Kurti1",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti1.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU002",
+    "name": "Kurti10",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti10.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU003",
+    "name": "Kurti11",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti11.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU004",
+    "name": "Kurti12",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti12.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU005",
+    "name": "Kurti13",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti13.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU006",
+    "name": "Kurti14",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti14.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU007",
+    "name": "Kurti15",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti15.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU008",
+    "name": "Kurti2",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti2.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU009",
+    "name": "Kurti3",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti3.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU010",
+    "name": "Kurti4",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti4.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU011",
+    "name": "Kurti5",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti5.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU012",
+    "name": "Kurti6",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti6.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU013",
+    "name": "Kurti7",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti7.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU014",
+    "name": "Kurti8",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti8.jpg",
+    "description": ""
+  },
+  {
+    "id": "KU015",
+    "name": "Kurti9",
+    "category": "kurtis",
+    "price": "",
+    "image": "images/kurtis/kurti9.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR001",
+    "name": "Saree1",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree1.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR002",
+    "name": "Saree10",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree10.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR003",
+    "name": "Saree11",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree11.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR004",
+    "name": "Saree12",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree12.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR005",
+    "name": "Saree13",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree13.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR006",
+    "name": "Saree14",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree14.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR007",
+    "name": "Saree15",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree15.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR008",
+    "name": "Saree16",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree16.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR009",
+    "name": "Saree17",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree17.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR010",
+    "name": "Saree18",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree18.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR011",
+    "name": "Saree19",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree19.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR012",
+    "name": "Saree2",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree2.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR013",
+    "name": "Saree20",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree20.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR014",
+    "name": "Saree21",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree21.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR015",
+    "name": "Saree22",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree22.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR016",
+    "name": "Saree3",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree3.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR017",
+    "name": "Saree4",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree4.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR018",
+    "name": "Saree5",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree5.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR019",
+    "name": "Saree6",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree6.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR020",
+    "name": "Saree7",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree7.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR021",
+    "name": "Saree8",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree8.jpg",
+    "description": ""
+  },
+  {
+    "id": "SR022",
+    "name": "Saree9",
+    "category": "saree",
+    "price": "",
+    "image": "images/saree/saree9.jpg",
+    "description": ""
+  }
+]
